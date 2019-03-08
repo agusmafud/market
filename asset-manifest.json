@@ -1,8 +1,8 @@
 {
-  "main.js": "/market/static/js/main.4721ff54.chunk.js",
-  "main.js.map": "/market/static/js/main.4721ff54.chunk.js.map",
-  "static/js/1.2d7d1663.chunk.js": "/market/static/js/1.2d7d1663.chunk.js",
-  "static/js/1.2d7d1663.chunk.js.map": "/market/static/js/1.2d7d1663.chunk.js.map",
+  "main.js": "/market/static/js/main.840a0a88.chunk.js",
+  "main.js.map": "/market/static/js/main.840a0a88.chunk.js.map",
+  "static/js/1.6f67b54a.chunk.js": "/market/static/js/1.6f67b54a.chunk.js",
+  "static/js/1.6f67b54a.chunk.js.map": "/market/static/js/1.6f67b54a.chunk.js.map",
   "runtime~main.js": "/market/static/js/runtime~main.c6846700.js",
   "runtime~main.js.map": "/market/static/js/runtime~main.c6846700.js.map",
   "static/media/instagram.svg": "/market/static/media/instagram.5b79803a.svg",
@@ -23,6 +23,6 @@
   "static/media/2.jpeg": "/market/static/media/2.a1756cb0.jpeg",
   "static/media/3.jpeg": "/market/static/media/3.f54634f0.jpeg",
   "index.html": "/market/index.html",
-  "precache-manifest.d24676a7ac6cc12f6caf84b02bde014c.js": "/market/precache-manifest.d24676a7ac6cc12f6caf84b02bde014c.js",
+  "precache-manifest.0ee8149e778769c586e37198dd24274f.js": "/market/precache-manifest.0ee8149e778769c586e37198dd24274f.js",
   "service-worker.js": "/market/service-worker.js"
 }
