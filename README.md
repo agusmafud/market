@@ -17,5 +17,6 @@ La arquitectura definida es la de una progressive web app, combinando lo mejor d
 * [React Swipeable Views](https://react-swipeable-views.com/) - Componentes en React para vistas "swipeables".
 
 ### Performance
-Resultados de performance utilizando [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/?hl=es)
+Resultados de performance utilizando [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/?hl=es):
+
 ![Performance Google Lighthouse](performance.png?raw=true "Performance Google Lighthouse")
