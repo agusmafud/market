@@ -1,68 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Market App
 
-## Available Scripts
+React Market App es un sitio web de ecommerce construido con React, Material UI y Redux. Es una serverless app, los pedidos generados son persistidos en la nube utilizando los servicios gratuitos de Firebase.
 
-In the project directory, you can run:
+La arquitectura definida es la de una progressive web app, combinando lo mejor de la Web y lo mejor de las apps. No requiere instalación, se carga rápidamente (incluso con redes débiles), tiene un ícono en la pantalla principal y se carga como experiencia de pantalla completa y de primer nivel. También puede funcionar offline y envíar notificaciones push relevantes tal como lo hace una app nativa.
 
-### `npm start`
+### Construido con
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* [React](https://reactjs.org/) - React es una libería de Javascript para construir interfases de usuario, utilizando una arquitectura modular de componentes encapsulados.
+* [Material-UI](https://material-ui.com/) - Componentes visuales de React que implementan la normativa de diseño Material Design de Google.
+* [Redux](https://es.redux.js.org/) - Redux es un contenedor predecible del estado de aplicaciones JavaScript. Se utiliza para mantener el estado del carrito de compras, los datos de usuario, y enviar y recibir información a la nube (Firebase).
+* [Redux Thunk](https://github.com/reduxjs/redux-thunk) - Redux Thunk es un middleware de Redux para manejar acciones asíncronas. Se utiliza para enviar los pedidos y recibir pedidos de Firebase.
+* [Redux Persist](https://github.com/rt2zz/redux-persist) - Permite persistir el estado de Redux en el local storage del dispositivo del usuario. De esta manera, un usuario que reingresa al sitio, ya sea por haber cerrado o reiniciado la pestaña, podrá seguir viendo su mismo carrito de compra y datos de usuario.
+* [Formik](https://jaredpalmer.com/formik/) - Usado en todos los forms del sitio. Permite un manejo simple y adaptable en función de las necesidades del sitio.
+* [React Reveal](https://www.react-reveal.com/) - Libería en React para animaciones de alta performance.
+* [React Swipeable Views](https://react-swipeable-views.com/) - Componentes en React para vistas "swipeables".
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Performance
